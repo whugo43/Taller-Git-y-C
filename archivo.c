@@ -14,7 +14,7 @@ printf("\n La frase en morse es:    ");
     while(frase[i]!='\0')
     {
         
-if (frase[i] == 32){strcpy(letra,"   ");}//espacio
+if (frase[i] == 32){strcpy(letra,"/ ");}//espacio
 if (frase[i] == 46){strcpy(letra," — · — · —");}//.
 if (frase[i] == 44){strcpy(letra,"— · — · — —");}//,
 
